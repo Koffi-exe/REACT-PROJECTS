@@ -1,0 +1,27 @@
+.loadMoreContainer{
+    background-color: #000000;
+    display: flex;
+}
+
+.productContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 200px;
+    background-color: #fcfcfc;
+    margin: 15px;
+    border-radius: 13px;
+}
+
+.productImage{
+    width: 130px;
+    border-radius: 13px;
+}
