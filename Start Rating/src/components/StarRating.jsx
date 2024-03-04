@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 
-export default function StarRating() {
+export default function StarRating({noOfStars}) {
   const [currRate, setCurrRate] = useState(null);
   const [hoverStar, setHoverStar] = useState(null);
+  const Stars= noOfStars
 
   return (
     <>
-      {[...Array(5)].map((_, index) => {
+      {[...Array(noOfStars||5)].map((_, index) => {
+        // console.log(props)
         const currentRate = index;
         return (
           <FaStar

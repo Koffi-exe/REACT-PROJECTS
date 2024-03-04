@@ -1,0 +1,36 @@
+body{
+    background-color: #666363;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.arrow{
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    color: grey;
+    font-size: 45px;
+    border-radius: 25px;
+    box-shadow: 8px 5px 5px #322f2f;
+    cursor: pointer;
+}
+
+.imageContainer{
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    height: 300px;
+    width: 350px;
+    box-shadow:8px 5px 5px #322f2f ;
+}
+
+.dots{
+    display: flex;
+    flex-direction: column;
+}
+
+.dot{
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <StarRating/>
+      <StarRating noOfStars={5}/>
     </>
   )
 }
