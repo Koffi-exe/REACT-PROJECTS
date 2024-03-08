@@ -1,0 +1,27 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.networkHead{
+    font-size: 50px;
+    background-color: grey;
+    padding: 15px;
+    line-height: 50px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 4px;
+}
+
+.networkPara{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.button{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 15px;
+}
